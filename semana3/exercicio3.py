@@ -8,4 +8,14 @@ Ao final deve apresentar os números de
 matriculas separados em 3 grupos.
 '''
 
+grupo = [[], [], []]
+while True:
+     matricula = int(input('Digite a matricula: '))
+     grupo[matricula % 3].append(matricula)
  
+     if matricula == 0:
+        break
+
+print("Grupo 1", grupo[0])  
+print("Grupo 2", grupo[1]) 
+print("Grupo 3", grupo[2])    
