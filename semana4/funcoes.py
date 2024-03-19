@@ -11,7 +11,7 @@ def nome_funcao(param1, param2, paramN);
 '''
 #cria uma função que calcula a área de triângulo
 def calculateTrianglArea(base, altura):
-    area = (base * altura)/ 2
+    area = (base * altura) / 2
     return area
 
 #cria uma função que calcula a área de quadrado
@@ -29,3 +29,4 @@ altura = float(input('Digita a altura: '))
 area2 = calculateTrianglArea(base, altura)
 print("A area do triângulo 2 é", area2)
 '''
+areaCalculada = calculateTrianglArea(500, 100)
